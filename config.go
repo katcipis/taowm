@@ -10,7 +10,7 @@ const (
 	// wmKeysym is the key to trigger taowm actions. For other possible
 	// values, such as xkSuperL for the 'Windows' key that is typically
 	// between the left Control and Alt keys, see keysym.go.
-	wmKeysym = xkCapsLock
+	wmKeysym = xkSuperL
 
 	// colorXxx are taowm's text and border colors. We assume 24-bit RGB.
 	colorBaseUnfocused  = 0x1f3f1f
