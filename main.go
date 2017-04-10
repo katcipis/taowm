@@ -309,6 +309,10 @@ func main() {
 			eeChan <- xEventOrError{e, err}
 		}
 	}()
+
+	// Startup my apps
+	startup()
+
 	for {
 		for i, c := range checkers {
 			if err := c.Check(); err != nil {
