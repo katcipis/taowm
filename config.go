@@ -72,7 +72,7 @@ var actions = map[int32]struct {
 	+' ':      {doExec, []string{"google-chrome-stable"}},
 	^' ':      {doExec, []string{"google-chrome-stable", "--incognito"}},
 	^'|':      {doExec, []string{"slock"}},
-	+xkReturn: {doExec, []string{"kitty"}},
+	+xkReturn: {doExec, []string{"kitty nash"}},
 	^xkReturn: {doExec, []string{"dmenu_run", "-nb", "#0f0f0f", "-nf", "#3f7f3f",
 		"-sb", "#0f0f0f", "-sf", "#7fff7f", "-l", "10"}},
 
