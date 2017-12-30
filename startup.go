@@ -4,5 +4,5 @@ package main
 func startup() {
 	doExec(nil, []string{"spotify"})
 	doExec(nil, []string{"pavucontrol"})
-	doExec(nil, []string{"google-chrome-stable"})
+	doExec(nil, []string{defaultBrowser})
 }
